@@ -29,7 +29,18 @@
             </ul>
         </div>
         <div class="weather-details">
-            <div clas="temp">15°C</div>
+            <div class="temperature">
+                <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="clear sky" id="icon" class="float-start">
+                <div id="temp" class="temperature2">15°C
+                    <span class="units"> 
+                        <a href="#" id="celsius" class=""> °C
+                        </a> 
+                        <span class="divide"></span>
+                        <a href="#" id="fahrenheit" class="active"> °F
+                        </a> 
+                    </span>
+                </div>
+            </div>
             <div class="hum-wind">
                 <div class="humidity">Humidity:
                     <span id="humidity">20</span>%

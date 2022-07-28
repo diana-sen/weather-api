@@ -3,15 +3,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 2em;
     background: lavender;
     font-family: 'Open Sans', sans-serif;
     font-size: 110%;
 }
 
 .main-container {
-    max-width: 600px;
+    max-width: 660px;
     margin: 1em;
+    margin-top: 4em;
     padding: 2em;
     border: 4px solid #dadde1;
     border-radius: 25px;
@@ -37,6 +38,7 @@ input.search-bar {
     width: calc(80% - 50px);
 }
 
+
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -61,4 +63,73 @@ input.search-bar {
 .btn-primary:hover {
     background: #96199b;
     border-color: #96199b;
+}
+
+.weather-overview {
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+
+h2.city{
+    margin-top:1em;
+    margin-bottom: 0;
+}
+
+.ul{
+    display: inline;
+    padding: 0;
+    margin-top: revert;
+    
+}
+
+li {
+    list-style: none;
+    margin-left: 0;
+    margin-top: 0px;
+    padding: 0;
+    color: darkslategray;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 19px;
+    text-transform: capitalize;
+}
+
+.weather-details {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-content: baseline;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row; 
+}
+
+.temperature {
+    color: rgb(33,33,33);
+    font-size: 80px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.hum-wind{
+    color: rgb(33,33,33);
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.units {
+    position: relative;
+    font-size: 16px;
+    top: -44px;
+    color: blueviolet;
+}
+
+
+.divide {
+    border-left: solid 1px #70757a;
+    margin: 0 4px;
 }
