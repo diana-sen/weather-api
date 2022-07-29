@@ -71,7 +71,7 @@ input.search-bar {
     justify-content: center;
 }
 
-h2.city{
+.city{
     margin-top:1em;
     margin-bottom: 0;
 }
@@ -120,6 +120,10 @@ li {
     font-size: 15px;
     font-weight: 200;
 }
+.description{
+    text-transform: capitalize;
+}
+
 
 .units {
     position: relative;

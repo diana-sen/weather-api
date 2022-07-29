@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src\style.css">
+    <script src="./index.js"></script>
 </head>
 <body>
     <div class="main-container">
@@ -30,8 +31,8 @@
         </div>
         <div class="weather-details">
             <div class="temperature">
-                <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="clear sky" id="icon" class="float-start">
-                <div id="temp" class="temperature2">15°C
+                <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="clear sky" id="weather-icon" class="w-main-icon">
+                <div id="temp" class="temp">15°C
                     <span class="units"> 
                         <a href="#" id="celsius" class=""> °C
                         </a> 
@@ -43,10 +44,10 @@
             </div>
             <div class="hum-wind">
                 <div class="humidity">Humidity:
-                    <span id="humidity">20</span>%
+                    <span class="humidity" id="humidity">20</span>%
                 </div>
                 <div class="wind">Wind:
-                    <span id="wind">20</span>Km/h
+                    <span class="wind" id="wind">20</span>Km/h
                 </div>
             </div>   
         </div>
